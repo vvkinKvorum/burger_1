@@ -126,6 +126,76 @@ img {
   color: rgba(255, 255, 255, 1);
 }
 
+
+.form__wrap {
+  padding: 50px 0;
+}
+.form__title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.form__list {
+  display: flex;
+  flex-direction: column;
+
+}
+.form__item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.form__inp {
+  width: 100%;
+  border: 2px solid #000;
+  padding: 20px;
+  display: block;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.form__inp:hover {
+  border-color: green;
+}
+.form__inp:active,
+.form__inp:focus {
+  border-color: orange;
+} 
+.form__btn {
+  background: orange;
+  color: #000;
+  padding: 20px 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  transition: 5.s;
+}
+.form__btn:hover {
+  background: #946d25;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1000px) {
   .navbar__wrap .menu {
     display: none;
